@@ -526,6 +526,11 @@ section {
   line-height: 2rem;
   padding-bottom: 1rem;
 }
+.blogs-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 .contact-content-con {
   display: flex;
@@ -952,7 +957,7 @@ section {
 
 .video-container {
   flex: 1;
-  margin-right: 40px; /* Adjust this margin as needed */
+  /* margin-right: 40px;  Adjust this margin as needed */
 }
 
 video {
